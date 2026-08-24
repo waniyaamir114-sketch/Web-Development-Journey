@@ -1,0 +1,9 @@
+🧠 New CSS Properties
+ Property	             Purpose
+1. background-color	Changes background color
+2. color	                Changes text color
+3. border	                Adds a border around an element
+4. padding	                Space inside the border
+5. margin                	Space outside the border
+6. border-radius        	Makes corners rounded
+7. width	                Sets element width

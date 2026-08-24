@@ -1,0 +1,69 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightblue;
+
+}
+
+nav{
+
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: white;
+    transition:0.3s;
+
+}
+
+nav a:hover {
+    background-color: steelblue;
+    color: white;
+    transform: scale(1.05);
+}
+
+.hero{
+    text-align: center;
+    padding:100px 20px;
+}
+
+.hero h1{
+
+    font-size: 45px;
+}
+
+.herp p{
+ 
+    font-size: 18px;
+}
+
+.hero button{
+
+     padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero button:hover{
+
+    background-color: steelblue;
+    color:white;
+    transform: scale(1.05);
+}

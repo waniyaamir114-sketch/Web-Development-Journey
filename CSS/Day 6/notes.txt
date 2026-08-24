@@ -1,0 +1,9 @@
+📚 Today's Notes
+• Semantic tags describe the purpose of content.
+• They improve readability and accessibility.
+• <main> should contain the main content of the webpage.
+• <header> and <footer> usually appear at the top and bottom.
+• <section> groups related content.
+• <article> is for independent content.
+• <aside> contains extra information.
+• <nav> contains navigation links.

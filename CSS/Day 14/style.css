@@ -1,0 +1,46 @@
+.layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100px 1fr 60px;
+}
+
+aside a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header {
+    grid-column: span 2;
+    border: 2px solid black;
+    text-align: center;
+    color: aqua;
+}
+
+header h1{
+
+    text-shadow: 2px 2px 4px grey;
+}
+
+aside {
+    grid-column: 1;
+    grid-row: 2;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+main {
+    grid-column: 2;
+    grid-row: 2;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+footer {
+    grid-column: span 2;
+    border: 2px solid black;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+body{
+    
+    text-align: center;
+
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-rows:200px 200px;
+    gap: 15px;
+
+}
+
+.card{
+ 
+    border: 2px solid black;
+    padding:30px;
+
+ }
+
+ .card-3 {
+    grid-column: span 2;
+}
+
+ .card-4 {
+    grid-column: span 2;
+}
